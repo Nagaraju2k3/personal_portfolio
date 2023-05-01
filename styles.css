@@ -1,0 +1,147 @@
+header{
+    height: 0;
+    padding: 0px;
+    margin: 0;
+    
+    text-align: center;
+}
+*{
+    padding: 13px;
+    margin-bottom: 20px;
+}
+.option   a{
+    color: yellow;
+    display:inline;
+    padding: 0px 10px 10px 10px;
+    font-size: 36px;
+    padding: 83px;
+    margin: 10px;
+    height: 50px;
+    margin-right: 10px;
+}
+.out   a{
+    color: yellow;
+    display:inline;
+    padding: 0px 10px 10px 10px;
+    font-size: 36px;
+    padding: 83px;
+    margin: 10px;
+    height: 50px;
+    margin-right: 10px;
+}
+h2{
+    color: white; 
+    padding: 0px 0px 0px 00px;
+    margin: 0;
+}
+
+.hello {
+    color: white;
+    padding: 30px;
+    font-size: 50px;
+    height: 20px;
+    text-align: left;
+}
+.detail {
+    color: white;
+    font-size: 59px;
+    padding: 0px;
+    height: 10px;
+    text-align: center;
+}
+.info {
+    color: white;
+    font-size: 59px;
+    padding: 100px;
+    height: 10px;
+    margin-top: -54px;
+    margin-right: 242px;
+    text-align: right;
+}
+header h4{
+    color: white;
+    font-size: 59px;
+    padding: 190px;
+    height: 20px;
+    text-align: right;
+}
+.img img{
+    width: 100px;
+    height: 100px;
+}
+@media (max-width: 900px)
+{
+    .option   a{
+        color: yellow;
+        display:inline;
+        font-size: 12px;
+        padding: 6px;
+        margin: 11px;
+        height: 10px;
+        margin-right: 10px;
+    }
+    .info {
+        color: white;
+        font-size: 33px;
+        padding: 44px;
+        height: 10px;
+        margin-top: -54px;
+        margin-right: 2px;
+        text-align: right;
+    }
+    .img img{
+        width: 35px;
+        height: 35px;
+    }
+    .hello {
+        color: white;
+        padding: 30px;
+        font-size: 21px;
+        height: 20px;
+        text-align: left;
+    }
+    .detail {
+        color: white;
+        font-size: 31px;
+        padding: 0px;
+        height: 10px;
+        text-align: center;
+    }
+    *{
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    
+}
+.res img{
+    text-align: center;
+    padding: 15px;
+}
+.pro img{
+    width: 70px;
+    height: 70px;
+}
+.res img{
+    width: 800px;
+    height: 900px;
+}
+@media (max-width: 600px)
+{
+    .pro img{
+        width: 35px;
+        height: 35px;
+    }
+    .out   a{
+        color: yellow;
+        display:inline;
+        font-size: 10px;
+        padding: 2px;
+        margin: 17px;
+        height: 10px;
+        margin-right: 11px;
+    }
+    .res img{
+        width: 350px;
+        height: 550px;
+    }
+}
